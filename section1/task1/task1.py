@@ -22,9 +22,9 @@ class cryptocompare:
 
     def get_histohour(self):
         timefrom=datetime.datetime(2017, 4, 1,18,0,0)#"2017-04-01 18:00:00"
-        timeto=datetime.datetime(2017, 4, 2,18,0,0)  #"2020-04-01 18:00:00"
+        timeto=datetime.datetime(2020, 4, 1,18,0,0)  #"2020-04-01 18:00:00"
         def get_data(datetime):
-            apiKey = "de5b2dcdaaea9bd25f362226b9912ccda870879cfa75afe2192fc6bd6fe22acf"
+            apiKey = ""
             url = "https://min-api.cryptocompare.com/data/histohour"
             params = {
                 "api_key": apiKey,
